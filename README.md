@@ -1,4 +1,4 @@
-#SETUP INSTRUCTIONS 
+# SETUP INSTRUCTIONS 
 
 # I already installed spark 3.1.2 version so there is no need to install it again 
 
@@ -8,7 +8,7 @@ spark-shell --packages io.delta:delta-core_2.12:1.0.0
 
 
 
-#EXECUTION INSTRUCTIONS 
+# EXECUTION INSTRUCTIONS 
 
 # i import the people.csv file from my localsystem 
 val df=spark.read.format("csv").option("header","true").load("Downloads//people.csv")
